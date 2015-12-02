@@ -84,6 +84,7 @@ footer a {
 
 .social {
 	padding: 15px;
+	float: left;
 }
 
 footer .fine-print {
@@ -92,6 +93,27 @@ footer .fine-print {
 	color: #505050;
 
 }
+
+@media (max-width: 767px) {
+	.center {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.bottom {
+		top: 0;
+	}
+	.social {
+		text-align: center;
+		font-size: 45px;
+	}
+
+	.social i {
+		margin: 20px 10px 0px;
+	}
+}
+
+
 /*end of footer*/
 
 
